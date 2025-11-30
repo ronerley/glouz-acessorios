@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Versão completa da loja Glouz Acessórios – frontend + backend + catálogo + InfinitePay"
+git branch -M main
+git remote add origin https://github.com/ronerley/glouz-acessorios.git
+git push -u origin main --force
