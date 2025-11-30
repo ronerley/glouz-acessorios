@@ -1,0 +1,2 @@
+import React from 'react'
+export default function ThankYou(){ const params = new URLSearchParams(window.location.search); const ref = params.get('reference') || ''; return (<main className='container'><h2>Obrigado!</h2><p>Referência: {ref}</p></main>)}
